@@ -3,12 +3,14 @@
 void get_date(int& today_year, int& today_month, int& today_day);
 void get_date(int& birthday_year, int& birthday_month, int& birthday_day);
 void compute_jdn(int today_year, int today_month, int today_day, int& today_jdn);
-void compute_jdn(int birthday_year, int birthday_month, int birthday_day, int& birthday_jdn);
-void compute_dow(int birthday_year, int birthday_month, int birthday_day, int& birthday_dow);
+void compute_jdn(int birthday_year, int birthday_month, 
+	int birthday_day, int& birthday_jdn);
+void compute_dow(int birthday_year, int birthday_month, 
+	int birthday_day, int& birthday_dow);
 void compute_days(int today_jdn, int birthday_jdn, int& days_between);
 void display_results(int today_year, int today_month, int today_day, int today_jdn,
-	int birthday_year, int birthday_month, int birthday_day, int birthday_jdn, int birthday_dow,
-	int days_between);
+	int birthday_year, int birthday_month, int birthday_day, int birthday_jdn, 
+	int birthday_dow, int days_between);
 
 int main()
 {
